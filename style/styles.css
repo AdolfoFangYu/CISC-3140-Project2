@@ -1,0 +1,134 @@
+body {
+  font-family: 'Times New Roman';
+  color: black;
+  background-color: rgba(14, 231, 255, 0.559);
+}
+
+header {
+  background-color: #0d55f2; 
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.logo{
+  display: inline;
+}
+#logo-r{
+  float:right;
+}
+#navigation{
+  text-align: center;
+  margin-top: 10PX;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 46%;
+  display: inline-block;
+  
+}
+#sports{
+  text-align: center;
+  margin-top: 10PX;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 46%;
+  display: inline-block;
+  
+}
+header h1 {
+  font-size: 60px;
+  text-align: center;
+  justify-content: center;
+  color: green;
+  display: inline;
+  margin-left: 150px;
+}
+
+#link{
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+#link:hover {
+  text-decoration: underline;
+}
+
+p{
+  font-size: 20px;
+}
+section {
+  margin-bottom: 2em;
+  padding: 1em;
+  background: white;
+  border-radius: 20px;
+}
+
+section h2 {
+  font-size: 40px;
+  border-bottom: 2px solid rgba(14, 231, 255, 0.559);;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+#nav-intro{
+  display: flex;
+}
+#spt-news{
+  display: flex;
+}
+#intro{
+  text-align: center;
+  margin-top: 10PX;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 46%;
+  display: inline-block;
+
+}
+#news{
+  text-align: center;
+  margin-top: 10PX;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 46%;
+  display: inline-block;
+
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+
+
+th, td {
+  padding: 0.5em;
+  text-align: center;
+}
+
+th {
+  background-color: #0033A0;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+#new-area{
+  text-align: left;
+}
+
+
+@media (max-width: 768px) {
+  nav ul li {
+      display: block;
+      margin-bottom: 0.5em;
+  }
+
+  header, main {
+      padding: 1em;
+  }
+}
